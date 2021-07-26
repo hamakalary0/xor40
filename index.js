@@ -6,11 +6,11 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === 'p+wara') { 
+if (message.content === 'wara') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
-message.member.voiceChannel.join() 
+message.member.voiceChannel.join(793531559298465818) 
 
 .then(connection => { 
 
@@ -32,14 +32,14 @@ message.reply('**ئەگەر بەخۆت نێیە ڤۆیس ئەمنیش نایێم
 
 client.on("message" , message => {
 
-if(message.channel.type === 'dm') {
+if(message.channel.type === '793531558710607947 ') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/EXCuvNd`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/k6SYQ8sS2M`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
   client.channels.get("755636700482633791").send(
-`> <:ARBELE_UPUP:791411050238836766> By: <@${message.author.id}> ✅ 
+`> <:KALARY_UPUP:782672264008040458> By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
     }
@@ -51,10 +51,10 @@ ${message.content}`)
 client.on('ready', () => {
 console.log(`ON ${client.guilds.size} Servers`);
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`ڕیکلامەکە بنێرە بۆمن دایدەنێم☑️`) 
+client.user.setGame(`by kalary ڕیکلامەکە بنێرە بۆمن دایدەنێم`) 
 });
 
 
 
 
-client.login("");//تۆکین لێرە دانێ
+client.login("Nzk4NjEzOTI0MDI2MjUzMzcz.X_3lLQ.ndALkfpDqRQwLbYbN1TlTppyKYI");//تۆکین لێرە دانێ
